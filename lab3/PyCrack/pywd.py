@@ -177,7 +177,7 @@ if __name__ == "__main__":
     RunTest()
     #Read a file of passwords containing
     #passwords separated by a newline
-    with open('rockyou_mod.dic') as f:
+    with open('../rockyou_mod.dic') as f:
         S = []
         for l in f:
             S.append(l.strip())
